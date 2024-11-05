@@ -7,7 +7,7 @@ import MainButton from '../../atoms/MainButton/MainButton'
 
 export const LeftSideContent = () => {
     return (
-        <div style={{display:"flex" ,flexDirection:"column" , gap:"10px", width:"376px"}}>
+        <div style={{display:"flex" ,flexDirection:"column" , gap:"20px", width:"376px", height:"585px" ,justifyContent:"center" , }}>
             <CardTitle title="Stay updated!" ></CardTitle>
             <Description Desc="Join 60,000+ product managers receiving monthly updates on:"></Description>
             <AllChekBox></AllChekBox>
